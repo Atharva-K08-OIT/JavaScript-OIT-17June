@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  border: 1px solid black;
+  height: 250px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.clock > div {
+  background-color: black;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
