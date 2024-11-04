@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+.slide > img {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px gray;
+}
+.slide {
+  display: none;
+}
+.slide:nth-child(2) {
+  display: block;
+}
+#prev,
+#next {
+  background-color: aliceblue;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px gray;
+}
